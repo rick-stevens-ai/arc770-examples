@@ -1,0 +1,28 @@
+# Build artifacts
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binary outputs
+matrix_mul_mkl
+black_scholes
+binomial
+computed_tomography
+device_info
+
+# Generated files
+*.bmp
+genxir
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build directories
+build/
+bin/
