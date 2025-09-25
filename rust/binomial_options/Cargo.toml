@@ -1,0 +1,11 @@
+[package]
+name = "binomial_options"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ocl = "0.19"
+rand = "0.8"
+anyhow = "1.0"
+thiserror = "1.0"
+num = "0.4"
