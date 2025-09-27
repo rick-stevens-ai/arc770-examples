@@ -1,0 +1,28 @@
+[package]
+name = "wgpu_basic_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "26.0"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+anyhow = "1.0"
+env_logger = "0.11"
+futures = "0.3"
+bytemuck = "1.4"
+
+[[bin]]
+name = "vector_add"
+path = "src/vector_add.rs"
+
+[[bin]]
+name = "matrix_multiply"
+path = "src/matrix_multiply.rs"
+
+[[bin]]
+name = "monte_carlo"
+path = "src/monte_carlo.rs"
+
+[[bin]]
+name = "simple_test"
+path = "src/simple_test.rs"

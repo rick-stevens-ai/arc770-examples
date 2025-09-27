@@ -1,0 +1,25 @@
+[package]
+name = "vulkan_basic_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vulkano = "0.34"
+anyhow = "1.0"
+bytemuck = "1.18"
+
+[[bin]]
+name = "device_info"
+path = "src/device_info.rs"
+
+[[bin]]
+name = "vector_add"
+path = "src/vector_add.rs"
+
+[[bin]]
+name = "matrix_multiply"
+path = "src/matrix_multiply.rs"
+
+[[bin]]
+name = "monte_carlo"
+path = "src/monte_carlo.rs"
