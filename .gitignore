@@ -26,3 +26,6 @@ genxir
 # Build directories
 build/
 bin/
+
+# added by cross-machine reconcile
+**/.DS_Store
