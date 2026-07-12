@@ -1,0 +1,12 @@
+[package]
+name = "monte-carlo-pi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ash = "0.37"
+gpu-allocator = "0.22"
+shader = { path = "shader" }
+
+[workspace]
+members = ["shader"]

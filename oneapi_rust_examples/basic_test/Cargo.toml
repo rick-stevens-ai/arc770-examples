@@ -1,0 +1,19 @@
+[package]
+name = "basic_test_oneapi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+libc = "0.2"
+
+[build-dependencies]
+cc = "1.0"
+
+[[bin]]
+name = "basic_test_oneapi"
+path = "src/main.rs"
+
+[[bin]]
+name = "basic_test_standalone"
+path = "src/main_standalone.rs"

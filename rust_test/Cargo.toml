@@ -1,0 +1,10 @@
+[package]
+name = "rust_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+intel-mkl-src = "0.8.1"
+ndarray = "0.15"
+opencl3 = "0.9"
+zerocopy = "0.7"

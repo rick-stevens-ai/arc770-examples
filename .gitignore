@@ -29,3 +29,12 @@ bin/
 
 # added by cross-machine reconcile
 **/.DS_Store
+
+# added by cross-machine reconcile
+**/target/debug/
+**/target/CACHEDIR.TAG
+
+# New rust examples: exclude all target/
+metal_rust_examples/**/target/
+oneapi_rust_examples/**/target/
+rust_test/target/
